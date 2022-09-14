@@ -1,0 +1,1 @@
+const daysUntil= 'There are ${daycount} until ${targetEvent}!';
