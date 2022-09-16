@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -tex-size-adjust: 100%;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  body{
+    background-color: #d6d5cf;
+    margin: 0;
+  }
+  hr {
+    margin: auto 100px;
+    border: 2px dashed #000000;
+  }
+  header {
+    background-color: bisque;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*background-color: #fff5aa;*/
+    grid-area: auto;
+  }
+  div {
+    margin: 1cm;
+    padding: 10px;
+  }
+  .profile-pic {
+    border-color: #000000;
+    border-radius: 50% 50% 50% 50%;
+    margin-right: 100px;
+  }
+  .profile-name {
+    text-align: center;
+  }
