@@ -13,11 +13,11 @@ html {
     margin: 0;
   }
   hr {
-    margin: auto 100px;
-    border: 2px dashed #000000;
+    margin: 5px 100px 5px 100px;
+    border: 2px solid #000000;
   }
   header {
-    background-color: bisque;
+    /*background-color: bisque;*/
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,14 +25,44 @@ html {
     grid-area: auto;
   }
   div {
-    margin: 1cm;
-    padding: 10px;
+    margin: 10px 100px 10px 100px;
+    align-items: center;
+    display: inline-flex;
+    background-color: rgb(93, 129, 207);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px 4px #ff6347,
+    0 0 10px 30px #ffdab9,
+    30px 0 20px 30px #b0e0e6;
   }
-  .profile-pic {
-    border-color: #000000;
-    border-radius: 50% 50% 50% 50%;
-    margin-right: 100px;
+  .profile-pic{
+    border-radius: 100px 100px 100px 100px;
+    width: 250px;
+    position: relative;
+    padding: 25px 30px 25px 30px;
+    left: auto;
   }
-  .profile-name {
+  .profile-name{
+    position: relative;
+    color: white;
+    right: auto;
+    padding: 5px 155px 5px 125px;
+  }
+  h2 {
+    margin: 5px 100px 5px 100px;
+  }
+  li {
+    margin: 2px 100px 2px 100px;
+  }
+  footer {
     text-align: center;
+    margin: 40px 600px 10px 100px;
+    box-shadow: 0 0 10px 4px #ff6347,
+    0 0 10px 30px #ffdab9,
+    30px 0 20px 30px #b0e0e6;
+    background-color: rgb(93, 129, 207);
+    padding-bottom: 20px;
+    color: #fff;
+  }
+  .footer {
+    margin: 2px 100px 2px 100px;
   }
