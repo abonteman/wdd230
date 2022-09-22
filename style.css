@@ -1,66 +1,66 @@
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -tex-size-adjust: 100%;
-}
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-body{
-  background-color: #d6d5cf;
-}
-hr {
-  margin: 5px 100px 5px 100px;
-  border: 2px solid #000000;
-}
-header {
-  background-color: rgb(93, 129, 207);
-  display: grid;
-  align-items: center;
-  grid-area: auto;
-}
-.banner-box {
-  display: -webkit-flex;
-  align-self: center;
+    box-sizing: border-box;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -tex-size-adjust: 100%;
   }
-.profile-pic{
-  width: max-content;
-  height: max-content;
-  max-block-size: 200px;
-}
-.profile-name{
-  margin: 10px 100px 10px 100px;
-  color: white;
-  text-align-last: center;
-  
-}
-h2 {
-  margin: 5px 100px 5px 100px;
-}
-li {
-  margin: 2px 100px 2px 100px;
-}
-footer {
-  text-align: center;
-  /*margin: 40px 600px 10px 100px;*/
-  background-color: rgb(93, 129, 207);
-  padding-bottom: 20px;
-  color: rgb(0, 0, 0);
-}
-.footer {
-  margin: 2px 100px 2px 100px;
-}
-div {
-  box-shadow: none;
-  display: inline-flex;
-  padding: 5px;
-}
-.date {
-  font-style: normal;
-  color: yellow;
-}
-#date {
-  color: yellow;
-}
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  body{
+    background-color: #d6d5cf;
+  }
+  hr {
+    margin: 5px 100px 5px 100px;
+    border: 2px solid #000000;
+  }
+  header {
+    background-color: rgb(93, 129, 207);
+    display: grid;
+    align-items: center;
+    grid-area: auto;
+  }
+  .banner-box {
+    display: -webkit-flex;
+    align-self: center;
+    }
+  .profile-pic{
+    width: max-content;
+    height: max-content;
+    max-block-size: 200px;
+  }
+  .profile-name{
+    margin: 10px 100px 10px 100px;
+    color: white;
+    text-align-last: center;
+    
+  }
+  h2 {
+    margin: 5px 100px 5px 100px;
+  }
+  li {
+    margin: 2px 100px 2px 100px;
+  }
+  footer {
+    text-align: center;
+    /*margin: 40px 600px 10px 100px;*/
+    background-color: rgb(93, 129, 207);
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .footer {
+    margin: 2px 100px 2px 100px;
+  }
+  div {
+    box-shadow: none;
+    display: inline-flex;
+    padding: 5px;
+  }
+  .date {
+    font-style: normal;
+    color: yellow;
+  }
+  #date {
+    color: yellow;
+  }
