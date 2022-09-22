@@ -31,6 +31,7 @@ html {
     max-block-size: 200px;
   }
   .profile-name{
+    align-items:center;
     margin: 10px 100px 10px 100px;
     color: white;
     text-align-last: center;
