@@ -1,77 +1,66 @@
 html {
-    box-sizing: border-box;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    -tex-size-adjust: 100%;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -tex-size-adjust: 100%;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body{
+  background-color: #d6d5cf;
+}
+hr {
+  margin: 5px 100px 5px 100px;
+  border: 2px solid #000000;
+}
+header {
+  background-color: rgb(93, 129, 207);
+  display: grid;
+  align-items: center;
+  grid-area: auto;
+}
+.banner-box {
+  display: -webkit-flex;
+  align-self: center;
   }
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
-  body{
-    background-color: #d6d5cf;
-    margin: 0;
-  }
-  hr {
-    margin: 5px 100px 5px 100px;
-    border: 2px solid #000000;
-  }
-  header {
-    /*background-color: bisque;*/
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /*background-color: #fff5aa;*/
-    grid-area: auto;
-  }
-  .banner-box {
-    margin: 10px 100px 10px 100px;
-    align-items: center;
-    display: inline-flex;
-    background-color: rgb(93, 129, 207);
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0 0 10px 4px #4769ff,
-    0 0 10px 30px #72bcd3,
-    30px 0 20px 30px #b0e0e6;
-  }
-  .profile-pic{
-    border-radius: 100px 100px 100px 100px;
-    width: 250px;
-    position: relative;
-    padding: 25px 30px 25px 30px;
-    left: auto;
-  }
-  .profile-name{
-    position: relative;
-    color: white;
-    right: auto;
-    padding: 5px 155px 5px 125px;
-  }
-  h2 {
-    margin: 5px 100px 5px 100px;
-  }
-  li {
-    margin: 2px 100px 2px 100px;
-  }
-  footer {
-    text-align: center;
-    margin: 40px 600px 10px 100px;
-    background-color: rgb(93, 129, 207);
-    padding-bottom: 20px;
-    color: #fff;
-  }
-  .footer {
-    margin: 2px 100px 2px 100px;
-  }
-  div {
-    box-shadow: none;
-    display: inline-flex;
-    padding: 5px;
-  }
-  .date {
-    font-style: normal;
-    color: yellow;
-  }
-  #date {
-    color: yellow;
-  }
+.profile-pic{
+  width: max-content;
+  height: max-content;
+  max-block-size: 200px;
+}
+.profile-name{
+  margin: 10px 100px 10px 100px;
+  color: white;
+  text-align-last: center;
+  
+}
+h2 {
+  margin: 5px 100px 5px 100px;
+}
+li {
+  margin: 2px 100px 2px 100px;
+}
+footer {
+  text-align: center;
+  /*margin: 40px 600px 10px 100px;*/
+  background-color: rgb(93, 129, 207);
+  padding-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+.footer {
+  margin: 2px 100px 2px 100px;
+}
+div {
+  box-shadow: none;
+  display: inline-flex;
+  padding: 5px;
+}
+.date {
+  font-style: normal;
+  color: yellow;
+}
+#date {
+  color: yellow;
+}
